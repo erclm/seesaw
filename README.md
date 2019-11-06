@@ -20,7 +20,7 @@ Fred starts at 1(ground), and goes up by 1. Wilma starts at 7(top max), and goes
 - For some reason, I need a print statement before the else(calculation) part in order for it to not break - I have no clue why it does this
     - if it doesn't have the print statement, it'll start Fred's height at 0.5. Just very weird.
 - Due to the nature of checks on how it releases the semaphores, sometimes the switch announcement ("===FRED's GOING UP===") will be announced twice
-    - maybe I have to do a check after the calculations?
+- at the end sometimes it does one more calculation...
 - Felt this was the correct way to see-saw the semaphores into two threads - using one semaphore would be easier; but would be cheating as it's not a see-saw
 - If you look at the past commits in the repository, you can see I tried to make "Person" classes and a see-saw class but it didn't work out well - that way I would have to make more classes to I just switched to this way
 
